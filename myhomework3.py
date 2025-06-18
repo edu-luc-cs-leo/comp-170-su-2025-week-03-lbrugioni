@@ -15,3 +15,18 @@ def draw_right_triangle(height):
         print('#'*i)
 draw_right_triangle(7)
 
+def compound_interest(p,r,y):
+    amount=p
+    for _ in range(y):
+        amount+=amount*r
+    return round(amount,2)
+print(compound_interest(10000,0.05,5))
+
+def draw_hollow_square(size,thickness):
+    for i in range(size):
+        if i<thickness or i>=size-thickness:
+            print('#'*size)
+        else:
+            print('#'*thickness+' '*(size-2*thickness)+'#'*thickness)
+draw_hollow_square(5,1)
+

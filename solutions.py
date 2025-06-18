@@ -1,9 +1,5 @@
 
-def greet(name: str) -> str:
-  """Function produces a greeting string with. It uses an f-string in the
-  return statement, that inserts the value of parameter {name} to the 
-  produced string."""
-  return f"Hello {name}. How are you?"
+
 
 # Create a list of friends to use in the next method. It would be nice if your 
 # list was not the same as mine -- unless you are into LOTR as much as I am
