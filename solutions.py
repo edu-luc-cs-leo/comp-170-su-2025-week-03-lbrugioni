@@ -1,23 +1,3 @@
-
-
-
-# Create a list of friends to use in the next method. It would be nice if your 
-# list was not the same as mine -- unless you are into LOTR as much as I am
-# and you can prove it by reciting the One Ring's Tengwar in Black Speech.
-my_friends = ["Frodo", "Sam", "Gandalf", "Saruman", "Elrond"]
-
-
-def greet_friends(friends: list[str]) -> None:
-  """Function takes a list of strings, parses it one string at a time, and
-  passes the strign to the greet function whose output is then passed to
-  the print statement, for display."""
-  for name in friends:
-    print(greet(name))
-
-
-# We need the math module to computer square roots
-import math
-
 def solve_quadratic(a: float, b: float, c: float) -> None:
   """Basic solution to the quadratic equation. The equation
   a*x*x + b*x + c = 0

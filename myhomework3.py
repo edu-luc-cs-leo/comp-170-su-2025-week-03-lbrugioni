@@ -37,4 +37,3 @@ def draw_hollow_square(size,thickness):
         else:
             print('#'*thickness+' '*(size-2*thickness)+'#'*thickness)
 draw_hollow_square(5,1)
-
