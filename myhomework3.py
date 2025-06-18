@@ -14,7 +14,7 @@ def draw_diamond(height):
 draw_diamond(7)
 
 def draw_right_triangle(height):
-    #builds each row of the right triangle 
+    #build each row of the right triangle 
     for i in range(1,1+ height):
         print('#'*i)
 draw_right_triangle(7)
